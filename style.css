@@ -1,0 +1,298 @@
+@keyframes example {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 278px;
+  }
+}
+.line {
+  animation-name: example;
+  animation-duration: 2s;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("image/R (1).gif");
+  background-color: black;
+  opacity: 100%;
+  padding-bottom: 46px;
+  background-position: center;
+  background-size: cover;
+}
+.front {
+  margin-top: 20rem;
+  padding-top: 30px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.nlink a {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nlink a:hover {
+  color: lightpink;
+}
+.nlink a:visited {
+  color: white;
+}
+ion-icon {
+  color: white;
+  margin-left: 17px;
+  margin-top: 10px;
+}
+ion-icon:hover {
+  color: lightpink;
+  margin-left: 17px;
+  margin-top: 10px;
+}
+.row{
+  margin-bottom: 150px;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border: none;
+}
+
+header {
+  padding-bottom: 46px;
+}
+header nav {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+header nav .left {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: lightpink;
+  margin-right: 200px;
+  margin-left: 40px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+header nav .nav-item a {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: ghostwhite;
+  margin-left: 30px;
+  padding-top: 30px;
+  transition: all 0.3s ease;
+}
+header nav .nav-item a:hover {
+  color: #ffc0c3;
+}
+.hp {
+  padding: 10px 20px;
+}
+.hp .image img {
+  margin-left: 100px;
+  width: 350px;
+  height: 350px;
+  margin-right: 50px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+.desc h3 {
+  color: white;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font: sans-serif;
+}
+.desc h1 {
+  color: #ffc0c3;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 100;
+  transition: all 0.3s ease;
+}
+.desc p {
+  color: white;
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 150;
+  padding-right: 40px;
+  line-height: 200%;
+}
+.page_title {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-weight: 200;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-decoration: underline 2px;
+  text-underline-position: under;
+}
+.about .name {
+  color: lightpink;
+}
+.about .btn{
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.about .btn .cv-download{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 150;
+  border: 2px solid;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.about .btn .cv-download:hover {
+  background: #ffc0c3;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+.about .result {
+  color: lightpink;
+}
+.about p {
+  color: white;
+  font-size: 22px;
+  font-weight: 150;
+  line-height: 200%;
+  letter-spacing: 200%;
+  text-align: justify;
+}
+.skills {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.skills p {
+  color: white;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 150;
+  padding-right: 40px;
+  line-height: 150%;
+  letter-spacing: 200%;
+  text-align: justify;
+}
+.progress {
+  color: lightpink;
+}
+.work {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 50px;
+}
+.work .int_name {
+  color: lightpink;
+  font-size: 30px;
+  font-weight: 150;
+  line-height: 150%;
+  letter-spacing: 200%;
+  text-align: justify;
+  line-height: 150%;
+}
+.work p {
+  color: white;
+  font-size: 22px;
+  font-weight: 150;
+  padding-right: 40px;
+  line-height: 200%;
+  letter-spacing: 200%;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.contact .contact_title h3 {
+  color: lightpink;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-weight: 200;
+}
+.contact .contact_info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact input, .contact textarea {
+  outline: none;
+  border: none;
+  width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 15px;
+}
+.contact textarea {
+  outline: none;
+  border: none;
+  width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 150px;
+  font-size: 15px;
+}
+@media screen and (max-width: 480px) {
+  .contact input {
+    width: 300px;
+  }
+  .contact textarea {
+    width: 300px;
+  }
+}
+.contact_btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid;
+  outline: none;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.contact_btn:hover {
+  background: #ffc0c3;
+  color: black;
+}
+.btn-wrap {
+  text-align: center;
+}
